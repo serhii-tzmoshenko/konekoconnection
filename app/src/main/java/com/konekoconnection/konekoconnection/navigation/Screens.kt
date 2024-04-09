@@ -7,7 +7,7 @@ sealed class Screens(val route: String) {
         data object Recovery : Screens("recovery")
     }
 
-    data object HappyMainScreen : Screens("happy_main_screen")
+    data object Main : Screens("main")
 
     data object Content : Screens("content") {
         data object Home : Screens("home")
